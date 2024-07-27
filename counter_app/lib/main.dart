@@ -1,4 +1,5 @@
-import 'package:counter_app/screens/space_list_view.dart';
+/**El archivo de barril debe tener el mismo nombre que la carpeta */
+import 'package:counter_app/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     /**Las constantes optimizan el codigo de flutter */
-    return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: SpaceScreenApp());
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        // home: const SpaceScreenApp(),
+        initialRoute: 'counter',
+        routes: {
+          'counter': (context) => const HomeScreen(),
+          'listViewConEspacios': (context) => const SpaceScreenApp(),
+          'card': (context) => const cardScreen(),
+          'alert': (context) => const AlertScreen()
+        });
   }
 }
