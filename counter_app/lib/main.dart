@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
         // home: const SpaceScreenApp(),
         initialRoute: 'counter',
         routes: {
-          'counter': (context) => const HomeScreen(),
-          'listViewConEspacios': (context) => const SpaceScreenApp(),
-          'card': (context) => const cardScreen(),
+          'counter': (context) => const CounterScreen(),
+          'listViewSpace': (context) => const ListViewSeparatedScreen(),
+          'card': (context) => const CardScreen(),
           'alert': (context) => const AlertScreen()
         });
   }

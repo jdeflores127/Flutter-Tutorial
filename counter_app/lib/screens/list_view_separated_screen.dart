@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpaceScreenApp extends StatelessWidget {
-  const SpaceScreenApp({Key? key}) : super(key: key);
+class ListViewSeparatedScreen extends StatelessWidget {
+  const ListViewSeparatedScreen({super.key});
 
   final options = const ['megaman', 'metal gear', 'varsinso'];
 

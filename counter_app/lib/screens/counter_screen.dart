@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class CounterScreen extends StatefulWidget {
   /*El key sirve para identificar el widget dentro del contexto*/
-  const HomeScreen({super.key});
+  const CounterScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<CounterScreen> createState() => _CounterScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _CounterScreenState extends State<CounterScreen> {
   /**El estado se maneja en los atributos del HomeScreen */
   int contador = 0;
 

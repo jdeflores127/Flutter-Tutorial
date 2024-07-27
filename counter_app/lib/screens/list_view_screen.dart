@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeScreenApp extends StatelessWidget {
-  const HomeScreenApp({Key? key}) : super(key: key);
+class ListViewScreen extends StatelessWidget {
+  const ListViewScreen({super.key});
 
   final options = const ['megaman', 'metal gear', 'varsinso'];
 
