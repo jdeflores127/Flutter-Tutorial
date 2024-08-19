@@ -24,10 +24,10 @@ class _CounterScreenState extends State<CounterScreen> {
 
     /**Widget template para apps moviles */
     return Scaffold(
-      backgroundColor: Colors.greenAccent,
+      //backgroundColor: Colors.greenAccent,
       appBar: AppBar(
         title: const Text('Appbar'),
-        backgroundColor: Colors.deepPurpleAccent,
+        //backgroundColor: Colors.deepPurpleAccent,
         /*Controla el eje z y permite crear sombras*/
         shadowColor: Colors.black,
         elevation: 10.0,
