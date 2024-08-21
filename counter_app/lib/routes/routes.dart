@@ -26,7 +26,7 @@ class RoutesApp {
         route: 'alert',
         icon: Icons.add_alert_sharp,
         name: 'alert',
-        screen: const CardScreen()),
+        screen: const AlertScreen()),
     MenuOptions(
         route: 'counter',
         icon: Icons.calculate,

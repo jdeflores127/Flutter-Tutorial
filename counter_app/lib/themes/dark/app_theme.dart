@@ -12,6 +12,11 @@ class AppTheme {
       appBarTheme: const AppBarTheme(
         color: primary,
       ),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+              foregroundColor: buttonColors,
+              backgroundColor: primary,
+              shape: const StadiumBorder())),
       textButtonTheme: TextButtonThemeData(
           style: TextButton.styleFrom(foregroundColor: buttonColors)));
 
